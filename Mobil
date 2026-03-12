@@ -1,0 +1,28 @@
+public class Mobil {
+    private String nopol;
+    private String warna;
+    private String merk;
+    private int kecepatan;
+    private double jaraktempuh;
+
+    public void setNopol(String n) {
+        nopol = n;
+    }
+
+    public void setWarna(String w) {
+        warna = w;
+    }
+
+    public void setMerk(String m) {
+        merk = m;
+    }
+
+    public void setKecepatan(int k) {
+        kecepatan = k;
+    }
+
+    public double hitungJarak(double waktu) {
+        jaraktempuh = kecepatan * waktu;
+        return jaraktempuh;
+    }
+}
